@@ -29,7 +29,7 @@ public static  WebDriver  initilization(WebDriver driver,String browsername) {
 			driver=new InternetExplorerDriver();
 		}
 		
-	//	driver.manage().deleteAllCookies();
+	driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	

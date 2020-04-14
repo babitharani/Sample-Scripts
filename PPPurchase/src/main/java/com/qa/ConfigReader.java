@@ -24,7 +24,7 @@ public class ConfigReader {
 			}
 		}
 		
-		//Reading the config values 
+		//Reading the configuration changes values 
 
 		public static String getChromePath() {
 				String chromepath=prop.getProperty("chrome");

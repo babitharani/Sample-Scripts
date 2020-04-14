@@ -30,7 +30,7 @@ public static  WebDriver  initilization(WebDriver driver,String browsername) {
 		}
 		
 	// delete all cookies statement deleted
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	
 	return driver;
